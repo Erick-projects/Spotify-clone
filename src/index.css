@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Circular Spotify Text', Arial, Helvetica, sans-serif;
+  background-color: #121212;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: #1db954;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1ed760;
+}
