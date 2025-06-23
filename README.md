@@ -1,16 +1,11 @@
-<<<<<<< HEAD
-# Spotify-clone
-=======
-# React + Vite
+# 🎧 Spotify Clone 🎵
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un clon visual y funcional básico de Spotify, desarrollado con **React** y **Vite**, enfocado en diseño responsivo, navegación moderna y experiencia de usuario atractiva.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> ec6231a (Spotify-clone)
+- ⚛️ **React** — Librería principal para la construcción de interfaces.
+- ⚡ **Vite** — Herramienta rápida de desarrollo y bundling.
+- 🎨 **CSS personalizado** — Estilos modernos e inspirados en el diseño oficial de Spotify.
+- 🧭 **React Router DOM** — Para manejar las rutas entre páginas como inicio y registro.
+- 📱 **Diseño responsivo** — Adaptado para móviles, tablets y escritorio.
