@@ -1,12 +1,19 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
+import { useAuth } from '../context/authContext'
 import './Register.css'
 
 function Register() {
+  const { register: registerUser } = useAuth()
   const { register, handleSubmit, formState: { errors } } = useForm()
 
-  const onSubmit = data => {
-    alert(`Registrado con: ${data.email}`)
+  const onSubmit = async (data) => {
+    try {
+      await registerUser(data.email, data.password)
+      alert(`Registro exitoso con: ${data.email}`)
+    } catch (error) {
+      alert('Error al registrarse: ' + error.message)
+    }
   }
 
   return (

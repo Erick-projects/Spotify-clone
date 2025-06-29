@@ -2,9 +2,11 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Register from './pages/Register'
 import './App.css'
+import { AuthProvider } from "./context/authContext";
 
 function App() {
   return (
+    <AuthProvider>
     <>
       <header className="app-header">
         <div className="container header-container">
@@ -27,6 +29,7 @@ function App() {
         <Route path="/register" element={<Register />} />
       </Routes>
     </>
+    </AuthProvider>
   )
 }
 

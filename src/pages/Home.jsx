@@ -74,7 +74,6 @@ function Home() {
                 className="search-input"
                 aria-label="Buscar música electrónica, artistas, podcasts"
               />
-              <span className="user-name">Erick Magaña</span>
             </div>
             <section className="settings-box">
               <h2 className="settings-title">Configuración de Spotify</h2>
